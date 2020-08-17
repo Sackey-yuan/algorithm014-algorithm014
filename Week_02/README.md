@@ -1,14 +1,13 @@
 学习笔记
 周一：
-isAnagram
+leetcode-valid-anagram.py
 sort 与 sorted 区别：
-
 sort 是应用在 list 上的方法，sorted 可以对所有可迭代的对象进行排序操作。
 
 list 的 sort 方法返回的是对已经存在的列表进行操作，而内建函数 sorted 方法返回的是一个新的 list，而不是在原来的基础上进行的操作。
 
 inorderTraversal
-几种终结的写法
+几种递归终结的写法
 def helper(self, root, res):
     if root:
         self.helper(root.left, res)
@@ -50,3 +49,86 @@ Counter({'a': 2})
 Counter({'a': 1, 'b': 1})
 >>> c | d  # 并集:  max(c[x], d[x])
 Counter({'a': 3, 'b': 2})
+
+python装饰器：
+装饰器：修改函数的功能的函数
+1、python中一切皆对象，包括函数
+2、在函数中可以定义函数
+3、在函数中可以返回函数
+def help():
+    def print_holle():
+        print("holle")
+        return "ho"
+    return print_holle
+a = help()
+print(a)  #output:<function greet at 0x121424323423>
+print(a()) #output: holle \n ho
+4、可以将函数作为参数传给另一个函数
+
+5、@wraps(a_func)用来在修改函数的时候保证名不变；实现逻辑是只用a_func函数的函数名和注释覆盖修改的后的函数
+6、使用场景列举：
+a、授权：
+    装饰器能有助于检查某个人是否被授权去使用一个web应用的端口。例如在Flask和Django web框架中
+form functools import wraps
+
+def requires_auth(f):
+    @wraps(f)
+    def decorated(*args,**kwargs):
+        auth = request.aurhorization
+        if not auth or not chech_auth(auth.username,auth.password):
+            authenticate()
+        return f(*ags,**kwargs)
+    return decorated
+ 
+b、打印日志：
+form functools import wraps
+
+def logit(func):
+    @wraps(func)
+    def with_logging(*args,**kwargs):
+        print(func.__name__+"was called")
+        retur func(*args,**kwargs)
+    return with_logging
+
+@logit
+def addition_func(x):
+    """do some math."""
+    return x + x
+
+result = addition_func(4)
+#Out put:addition_func was called.
+
+7、带参数的装饰器#同函数参数一致
+8、装饰器的类
+fron functools import wraps
+
+class logit(obiect):
+    def __init__(self,logfile="out.log")
+        self.logfile = logfile
+    
+    def __call__(self,func):
+        @wraps(func)
+        def wrapped_func(*args, **kwrags):
+            log_string = func.__name__ + "was called ."
+            print(log_string)
+            with open(self.logfile) as open_file:
+                open_file.write(log_string + "\n")
+            self.notify()
+            return func(*args, **kwargs)
+        return wrapped_funct
+    
+    def notify(self):
+        #logit 只打印日志，不做别的or 自己想添加的do something
+        pass
+复用装饰类实现打印同时发邮件
+class enail_logit(logit):
+    def __init__(self, email = "admin@myproject.com",*args, **kwargs:
+        self.email = email
+        super(email_logit, self).__init__(*args, **kwargs)
+    
+    def notify(self):
+        #email
+        pass
+
+
+

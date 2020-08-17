@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         #hash_map o(m+n) 64 ms	13.9 MB
@@ -15,7 +17,7 @@ class Solution:
                     hash_map[item] -= 1
         return res
 
-        
+
         #Counter() o(1) 52 ms	13.8 MB
         # c = Counter(nums1) & Counter(nums2)
         # return list(c.elements())
