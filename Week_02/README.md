@@ -131,4 +131,92 @@ class enail_logit(logit):
         pass
 
 
+周五：
+https://leetcode-cn.com/problems/add-digits/
+python3
+class Solution:
+    def addDigits(self, num: int) -> int:
+        if num == 0: return 0 #python中（-1）%9是8  不是-1 go 中结果是-8
+        return (num - 1 ) % 9 + 1
+        
+        # while num > 9:
+        #     num = num % 10 + num // 10
+        # return num
+
+周六：
+递归代码做优化的时候把结算放入了return中，可以是代码比较简洁
+class Solution:
+    def maxDepth(self, root: TreeNode) -> int:
+        #递归：time_complexity：o(n) space_complexity: o(1) 开率递归空间o(n)52 ms	15.7 MB
+        if root:
+            #return max(self.maxDepth(root.left),self.maxDepth(root.right)) + 1 #代码优化 56 ms	15.5 MB
+            left = self.maxDepth(root.left)
+            right = self.maxDepth(root.right)
+            level = max(left,right) + 1
+            return level
+        return 0
+
+python空值的一些问题：
+
+在数据处理的过程中，经常会遇到数据为空的情况，然后踩到很多坑浪费很久的时间，今天总结一下Python中空值的情况，以防后续再掉进坑里。
+Python中空值一般有四种情况，None," ",False和NaN:
+前三种类型中 打印 None == None ," " == " " ,False == False都能返回判断True,但是np.NaN == np.NaN 却返回为False：
+要创建一个空值可以用np.NaN,而且type(np.NaN)是float类型，而type(None)是NoneType类型，type(" ")是字符串类型，而在pandas中的数据类型例如Series和DataFrame中如果数组中除了空值之外全部是数值类型则None会转化正NaN
+
+在Series或者DataFrame整体判断是否为空时，用isnull()，返回一个布尔型的矩阵；而且只有None 和NaN才被判断为空值
+
+要是判断某一列中有空值存在，可以使用isnull().any()：
+
+当判断单个值是否为空时，要用np.isnan()，但是np.isnan()只能用于数值型，NaN是Not a Number的缩写；其他类型可以用type(x).__name__ == 'float'来判断是否为空值，也可以利用np.NaN != np.NaN的特性来判断（即自身不等于自身时，该值为空值），这些方法只适用于空值为NaN类型的，当空值类型为None时，可以使用type(x) .__name__ == 'NoneType'来判断
+
+可以用data[data.isnull().values==True]来筛选含有空值的行，但是如果某行有多个值是空值，则会重复次数出现，所以利用data[data.isnull().values==True].drop_duplicates()来去重：
+
+为了将空值统一格式处理，可以在读取数据是限制一下，read_csv(na_values='NULL')将空值统一成NaN处理。
+
+Python2中sum()函数对于NaN+NaN计算结果为NaN
+Python3中sum()函数对于NaN+NaN计算结果为0
+如果需要在Python3中使用sum()函数，对于NaN+NaN计算结果为NaN，该怎么处理呢？
+Python3中sum()函数增加一个参数即可
+#python3中增加参数min_count
+min_count=1表示多个数求和过程中至少有1个及以上非空数据,否则返回NaN,
+df[‘signal’] = df[[‘signal_long’,‘signal_short’]].sum(axis=1,min_count=1)
+
+相关问题微博：python None 和 NaN
+https://www.cnblogs.com/Allen-rg/p/9664844.html
+
+来自简书：
+Python3 - 无穷大与NaN
+https://www.jianshu.com/p/3731d70658f6
+
+创建或测试正无穷(inf)、负无穷(-inf)或NaN等非数字的浮点数
+a = float('-inf') #负无穷
+b = float('inf') #正无穷
+C = float('nan') #空
+
+周日：
+查看标准堆的代码和自己写的进行对比，收获如下：
+1、可以封账在一个函数里多次使用的代码一定要封装，方便复用
+2、尽可能细化问题点（同样也有利于封装复用）
+3、代码末尾使用 if __name__ == "__main__":模块存放测试用例：良好的测试喜欢
+
+
+
+
+
+
+
+
+本周作业：
+二叉树的中序遍历（亚马逊、微软、字节跳动在半年内面试中考过）
+二叉树的前序遍历（谷歌、微软、字节跳动在半年内面试中考过）
+N 叉树的后序遍历（亚马逊在半年内面试中考过）
+N 叉树的前序遍历（亚马逊在半年内面试中考过）
+N 叉树的层序遍历
+实战例题
+最小的 k 个数（字节跳动在半年内面试中考过）
+滑动窗口最大值（亚马逊在半年内面试中常考）
+课后作业
+HeapSort ：自学 https://www.geeksforgeeks.org/heap-sort/
+丑数（字节跳动在半年内面试中考过）
+前 K 个高频元素（亚马逊在半年内面试中常考）
 
