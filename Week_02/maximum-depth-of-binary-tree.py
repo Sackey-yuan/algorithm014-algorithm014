@@ -57,3 +57,6 @@ class Solution:
         #         stack = queue.copy()
         #     else:
         #         return m
+if __name__ == "__main__":
+    for a in [x for j in range(3)  for x in range(2 * j)]:
+        print(a)

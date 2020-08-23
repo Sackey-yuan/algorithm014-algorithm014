@@ -1,4 +1,12 @@
 #优秀代码积累：
+列表中的for循环嵌套
+[Item for secondlist in firestList for Item in secondList]
+例如：print([x for j in range(3) for i in range(j * 2) for x in range(2 * i)])
+# j :0 , 1,          2
+# i :    0 , 1,      0, 1,      2,            3,
+# x :        0, 1,       0, 1,  0, 1, 2, 3,   0, 1, 2, 3, 4, 5
+#[           0, 1,       0, 1,  0, 1, 2, 3,   0, 1, 2, 3, 4, 5]
+
 #堆的python实现
 import  sys
 

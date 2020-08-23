@@ -199,6 +199,17 @@ C = float('nan') #空
 2、尽可能细化问题点（同样也有利于封装复用）
 3、代码末尾使用 if __name__ == "__main__":模块存放测试用例：良好的测试喜欢
 
+N叉树的层序遍历python3广度优先搜索算法
+[]中间的for循环嵌套  
+[children for node in queue for children in node.children]
+class Solution:
+    def levelOrder(self, root: 'Node') -> List[List[int]]:
+        if not root: return []
+        res,queue = [],[root]
+        while queue:
+            res.append([node.val for node in queue])
+            queue = [children for node in queue for children in node.children]
+        return res
 
 
 

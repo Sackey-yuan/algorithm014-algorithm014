@@ -1,4 +1,5 @@
 # Definition for a binary tree node.
+from typing import List
 class TreeNode:
     def __init__(self, x):
         self.val = x
