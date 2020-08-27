@@ -16,29 +16,17 @@ class Solution:
             return level
         return 0
         #使用栈，time_complexity：o(n) space_complexity: o(n)
-        stack , res = [(root,0)] , 0
-        while stack:
-            root, level = stack.pop()
+        s , res = [(root,0)] , 0
+        while s:
+            root, level = s.pop()
             if root:
                 level += 1
                 res = max(level ,res)  
                 if root.left:
-                    stack.append((root.left,level))
+                    s.append((root.left,level))
                 if root.right:
-                    stack.append((root.right,level))
+                    s.append((root.right,level))
         return res
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         #old
