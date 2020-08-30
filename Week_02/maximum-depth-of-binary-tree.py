@@ -15,18 +15,18 @@ class Solution:
             level = max(left,right) + 1
             return level
         return 0
-        #使用栈，time_complexity：o(n) space_complexity: o(n)
-        s , res = [(root,0)] , 0
-        while s:
-            root, level = s.pop()
-            if root:
-                level += 1
-                res = max(level ,res)  
-                if root.left:
-                    s.append((root.left,level))
-                if root.right:
-                    s.append((root.right,level))
-        return res
+        # #使用栈，time_complexity：o(n) space_complexity: o(n)
+        # see, res =[(root,0),], 0
+        # while see:
+        #     root, level = see.pop()
+        #     if root:
+        #         level += 1
+        #         res = max(level ,res)  
+        #         if root.left:
+        #             see.append((root.left,level))
+        #         if root.right:
+        #             see.append((root.right,level))
+        # return res
 
 
         #old
