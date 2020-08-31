@@ -5,7 +5,7 @@ i = besect.besect(nums_list,num,lo=0,hi=None)#返回any in nums_list[:i] <= num,
 besect。insort(nums_list,item,lo=0,hi=None)#二分查找插入item
 
 递归模板
-# Python
+#Python
 def recursion(level, param1, param2, ...):
     # recursion terminator
     if level > MAX_LEVEL:
@@ -17,24 +17,24 @@ def recursion(level, param1, param2, ...):
     self.recursion(level + 1, p1, ...)
     # reverse the current level status if needed
 分支模板
-# Python
+#Python
 def divide_conquer(problem, param1, param2, ...):
-  # recursion terminator
+  #recursion terminator
   if problem is None:
 	print_result
 	return
 
-  # prepare data
+  #prepare data
   data = prepare_data(problem)
   subproblems = split_problem(problem, data)
 
-  # conquer subproblems
+  #conquer subproblems
   subresult1 = self.divide_conquer(subproblems[0], p1, ...)
   subresult2 = self.divide_conquer(subproblems[1], p1, ...)
   subresult3 = self.divide_conquer(subproblems[2], p1, ...)
   …
 
-  # process and generate the final result
+  #process and generate the final result
   result = process_result(subresult1, subresult2, subresult3, …)
 
-  # revert the current level states
+  #revert the current level states
