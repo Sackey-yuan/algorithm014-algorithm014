@@ -1,0 +1,8 @@
+python cmd
+
+#python更新pip模块
+python -m pip install --upgrade pip
+#pip 添加模块 typing
+pip install --upgrade typing
+#pip更新typing模块
+pip install  --upgrade typing
