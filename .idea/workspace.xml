@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505e6cee-0780-4a0f-9dd8-fa540f776ac6" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/algorithm014-algorithm014.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm014-algorithm014.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_04/best-time-to-buy-and-sell-stock-ii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_04/lemonade-change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_04/number-of-islands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_04/practice/valid-perfect-square.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_04/search-a-2d-matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_04/word-ladder-ii.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_04/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_04/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_04/fibonacci-number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_04/get-kth-magic-number-Icci.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_04/majority-element.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_04/n-queens.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_04/permutations-ii.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week_04/practice/permutations-ii.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_04/quan-pai-lie-by-leetcode-solution-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week_04/practice/quan-pai-lie-by-leetcode-solution-2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +46,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\sackey\algorithm014\algorithm014-algorithm014\Week_04\practice" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.majority-element">
     <configuration default="true" type="tests" factoryName="Attests">
@@ -135,7 +151,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_04/permutations-ii.py" />
+      <option name="SCRIPT_NAME" value="F:\sackey\algorithm014\algorithm014-algorithm014\Week_04\practice\permutations-ii.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,7 +207,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598523209043</updated>
-      <workItem from="1599296406411" duration="980000" />
+      <workItem from="1599296406411" duration="5094000" />
+      <workItem from="1599375183670" duration="6948000" />
     </task>
     <servers />
   </component>
@@ -210,22 +227,26 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1286" height="143" key="GridCell.Tab.0.bottom" timestamp="1599296759289">
+    <state x="423" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599378835652">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="143" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599296759289" />
-    <state width="1286" height="143" key="GridCell.Tab.0.center" timestamp="1599296759288">
+    <state x="423" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1599378835652" />
+    <state width="1322" height="143" key="GridCell.Tab.0.bottom" timestamp="1599313051570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="143" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599296759288" />
-    <state width="1286" height="143" key="GridCell.Tab.0.left" timestamp="1599296759288">
+    <state width="1322" height="143" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599313051570" />
+    <state width="1322" height="143" key="GridCell.Tab.0.center" timestamp="1599313051569">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="143" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599296759288" />
-    <state width="1286" height="143" key="GridCell.Tab.0.right" timestamp="1599296759289">
+    <state width="1322" height="143" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599313051569" />
+    <state width="1322" height="143" key="GridCell.Tab.0.left" timestamp="1599313051569">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="143" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599296759289" />
+    <state width="1322" height="143" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599313051569" />
+    <state width="1322" height="143" key="GridCell.Tab.0.right" timestamp="1599313051569">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="143" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599313051569" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1599296788168">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
