@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505e6cee-0780-4a0f-9dd8-fa540f776ac6" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_04/best-time-to-buy-and-sell-stock-ii.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/lemonade-change.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/number-of-islands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/practice/valid-perfect-square.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/search-a-2d-matrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/word-ladder-ii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/practice/combinations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/practice/longest_common_subsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/practice/practice_openpyxl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/practice/subarray-sum-equals-k.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/practice/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/practice/testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/practice/walking-robot-simulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_06/minPathSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_06/minimum_path_sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_06/practice/coin-change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_06/practice/house-robber-ii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_06/practice/minimum_number_of_days_to_eat_noranges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_06/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/algorithm014-algorithm014.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm014-algorithm014.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_04/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_04/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_04/fibonacci-number.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_04/get-kth-magic-number-Icci.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_04/majority-element.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_04/n-queens.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_04/permutations-ii.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week_04/practice/permutations-ii.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_04/quan-pai-lie-by-leetcode-solution-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week_04/practice/quan-pai-lie-by-leetcode-solution-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_01/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_04/search-a-2d-matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week_04/search-a-2d-matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_05/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_05/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_06/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_06/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +38,17 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,14 +62,15 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\sackey\algorithm014\algorithm014-algorithm014\Week_04\practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.majority-element">
+  <component name="RunManager" selected="Python.maximal_square">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,7 +90,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="construct-binary-tree-from-preorder-and-inorder-traversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="decode-ways" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm014-algorithm014" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,12 +98,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week_03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week_06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_03/construct-binary-tree-from-preorder-and-inorder-traversal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_06/decode-ways.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +112,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="majority-element" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="maximal_square" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm014-algorithm014" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week_06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_06/maximal_square.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="search-a-2d-matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm014-algorithm014" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,7 +147,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_04/majority-element.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_04/search-a-2d-matrix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="n-queens" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm014-algorithm014" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,12 +164,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week_04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week_06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_04/n-queens.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_06/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="permutations-ii" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm014-algorithm014" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,34 +186,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week_04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week_05/practice" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\sackey\algorithm014\algorithm014-algorithm014\Week_04\practice\permutations-ii.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm014-algorithm014" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week_04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_04/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_05/practice/testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,19 +201,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test (1)" />
-      <item itemvalue="Python.construct-binary-tree-from-preorder-and-inorder-traversal" />
-      <item itemvalue="Python.n-queens" />
-      <item itemvalue="Python.permutations-ii" />
-      <item itemvalue="Python.majority-element" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.testing" />
+      <item itemvalue="Python.decode-ways" />
+      <item itemvalue="Python.search-a-2d-matrix" />
+      <item itemvalue="Python.maximal_square" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.majority-element" />
-        <item itemvalue="Python.n-queens" />
-        <item itemvalue="Python.permutations-ii" />
-        <item itemvalue="Python.construct-binary-tree-from-preorder-and-inorder-traversal" />
-        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.maximal_square" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.search-a-2d-matrix" />
+        <item itemvalue="Python.testing" />
+        <item itemvalue="Python.decode-ways" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +227,21 @@
       <updated>1598523209043</updated>
       <workItem from="1599296406411" duration="5094000" />
       <workItem from="1599375183670" duration="6948000" />
+      <workItem from="1599403318236" duration="50000" />
+      <workItem from="1599477442602" duration="2563000" />
+      <workItem from="1599532366037" duration="8443000" />
+      <workItem from="1599618932972" duration="3464000" />
+      <workItem from="1599726455695" duration="4879000" />
+      <workItem from="1599787731288" duration="13237000" />
+      <workItem from="1599812176364" duration="8348000" />
+      <workItem from="1599876735587" duration="7672000" />
+      <workItem from="1599982289559" duration="3476000" />
+      <workItem from="1600007104044" duration="91000" />
+      <workItem from="1600069395729" duration="4906000" />
+      <workItem from="1600134574108" duration="1949000" />
+      <workItem from="1600312647277" duration="5961000" />
+      <workItem from="1600518092522" duration="3948000" />
+      <workItem from="1600569990746" duration="16185000" />
     </task>
     <servers />
   </component>
@@ -227,32 +260,67 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="423" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599378835652">
+    <state x="423" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600573234908">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="423" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1599378835652" />
-    <state width="1322" height="143" key="GridCell.Tab.0.bottom" timestamp="1599313051570">
+    <state x="423" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1600573234908" />
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600574371733">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="143" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599313051570" />
-    <state width="1322" height="143" key="GridCell.Tab.0.center" timestamp="1599313051569">
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1600574371733" />
+    <state x="426" y="226" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599812101736">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="143" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599313051569" />
-    <state width="1322" height="143" key="GridCell.Tab.0.left" timestamp="1599313051569">
+    <state x="426" y="226" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1599812101736" />
+    <state x="518" y="218" key="FileChooserDialogImpl" timestamp="1599916060162">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="143" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599313051569" />
-    <state width="1322" height="143" key="GridCell.Tab.0.right" timestamp="1599313051569">
+    <state x="518" y="218" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599916060162" />
+    <state width="1322" height="32" key="GridCell.Tab.0.bottom" timestamp="1600608867823">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="143" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599313051569" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1599296788168">
+    <state width="1322" height="32" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600608867823" />
+    <state width="1322" height="32" key="GridCell.Tab.0.center" timestamp="1600608867823">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599296788168" />
+    <state width="1322" height="32" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600608867823" />
+    <state width="1322" height="32" key="GridCell.Tab.0.left" timestamp="1600608867823">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="32" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600608867823" />
+    <state width="1322" height="32" key="GridCell.Tab.0.right" timestamp="1600608867823">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="32" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600608867823" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1599916063540">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599916063540" />
+    <state x="380" y="0" width="598" height="728" key="find.popup" timestamp="1599876823655">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="0" width="598" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1599876823655" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600521079830">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600521079830" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$majority_element.coverage" NAME="majority-element Coverage Results" MODIFIED="1599296759222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_04" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$longest_common_subsequence.coverage" NAME="longest_common_subsequence Coverage Results" MODIFIED="1599877337842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_05/practice" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$search_a_2d_matrix.coverage" NAME="search-a-2d-matrix Coverage Results" MODIFIED="1600603601281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_04" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$test.coverage" NAME="test Coverage Results" MODIFIED="1600603867834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_06" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$decode_ways.coverage" NAME="decode-ways Coverage Results" MODIFIED="1600602498910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_06" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$subarray_sum_equals_k.coverage" NAME="subarray-sum-equals-k Coverage Results" MODIFIED="1599816656456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_05/practice" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$minimum_number_of_days_to_eat_noranges.coverage" NAME="minimum_number_of_days_to_eat_noranges Coverage Results" MODIFIED="1600325947501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_06/practice" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$word_ladder.coverage" NAME="word_ladder Coverage Results" MODIFIED="1599479627763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_05/practice" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$pickle.coverage" NAME="pickle Coverage Results" MODIFIED="1599811956994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Program Files/Python37/Lib" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$coin_change.coverage" NAME="coin-change Coverage Results" MODIFIED="1600316485465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_06/practice" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$testing.coverage" NAME="testing Coverage Results" MODIFIED="1600603549098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_05/practice" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$majority_element.coverage" NAME="majority-element Coverage Results" MODIFIED="1599479396947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_04" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$practice_openpyxl.coverage" NAME="practice_openpyxl Coverage Results" MODIFIED="1599985557460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_05/practice" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$house_robber_ii.coverage" NAME="house-robber-ii Coverage Results" MODIFIED="1600315314019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_06/practice" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$minPathSum.coverage" NAME="minPathSum Coverage Results" MODIFIED="1600572429389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_06" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$maximal_square.coverage" NAME="maximal_square Coverage Results" MODIFIED="1600608254917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_06" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$combinations.coverage" NAME="combinations Coverage Results" MODIFIED="1600520944042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_05/practice" />
   </component>
 </project>

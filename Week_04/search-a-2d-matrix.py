@@ -1,5 +1,37 @@
 from typing import List
+from Week_05.practice.testing import TestCode
+import bisect
+
+
 class Solution:
+    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+        # if matrix and matrix[0]:
+        #     row = bisect.bisect(matrix, [target])
+        #     if row < len(matrix) and matrix[row][0] == target:
+        #         return True
+        #     row -= 1
+        #     ind = bisect.bisect_left(matrix[row], target)
+        #     return ind < len(matrix[row]) and matrix[row][ind] == target
+        # return False
+
+        if not matrix or len(matrix[0]) == 0:
+            return False
+
+        left, right, n = 0, len(matrix) * len(matrix[0]), len(matrix[0])
+        while left < right:
+            mid = (left + right) // 2
+            print(left, right, mid//n, mid % n)
+            curNum = matrix[mid // n][mid % n]
+            if curNum == target:
+                return True
+            elif curNum > target:
+                right = mid
+            else:
+                left = mid + 1
+        return False
+
+
+class Solution2:
     """
     74. 搜索二维矩阵
     编写一个高效的算法来判断 m x n 矩阵中，是否存在一个目标值。该矩阵具有如下特性：
@@ -30,7 +62,6 @@ class Solution:
     """
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         #使用库函数 bisect
-        import bisect
         if len(matrix) == 0 or len(matrix[0]) == 0:
             return False
         i = bisect.bisect(matrix, [target])
@@ -106,10 +137,10 @@ class Solution1:
         #         right = mid - 1
         #     return self.mn(left) == target
         #看题解后优化
-        if not matrix and len(matrix[0]) == 0:
+        if not matrix or len(matrix[0]) == 0:
             return False
         n = len(matrix[0])
-        left , right = 0 , len(matrix)*n
+        left, right = 0, len(matrix)*n
         while left <= right:
             mid = (left + right) // 2
             x = matrix[mid//n][mid%n]
@@ -121,10 +152,7 @@ class Solution1:
                 right = mid - 1
         return False
 
-
-
-
-    def mn(self,num):
+    def mn(self, num):
         if num == 0:
             return self.matrix[0][0]
         if num%self.n:
@@ -134,3 +162,30 @@ class Solution1:
             x = num // self.n - 1
             y = self.n - 1
         return self.matrix[x][y]
+
+
+if __name__ == "__main__":
+    caseList = [([[1, 3, 5, 7],
+                  [10, 13, 15, 20],
+                  [23, 30, 34, 50]]
+                , 13),
+                ([[1, 3, 5, 7],
+                  [10, 11, 16, 20],
+                  [23, 30, 34,50]],
+                 3),
+                ([[]], 1),
+                ([
+                  [1,   3,  5,  7],
+                  [10, 11, 16, 20],
+                  [23, 30, 34, 50]
+                    ], 4),
+                ([[i for i in range(k, k+100)] for k in range(0, 100000, 100)], 9999),
+                ]
+    caseList.extend([([[i for i in range(k, k+100)] for k in range(0,100000,100)], tar) for tar in range(33, 100000, 1000)])
+    s = Solution()
+    print(s.searchMatrix(caseList[0][0], caseList[0][1]))
+    tester = TestCode()
+    tester.creat_test_case(caseList)
+    tester.creat_function(s.searchMatrix)
+    # tester.start()
+    tester.del_log_cache()

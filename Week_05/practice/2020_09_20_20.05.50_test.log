@@ -1,0 +1,7 @@
+ERROR:root:
+del file:
+\F:\sackey\algorithm014\algorithm014-algorithm014\Week_05\practice\2020_09_20_20.05.50_test.log
+Traceback (most recent call last):
+  File "F:/sackey/algorithm014/algorithm014-algorithm014/Week_05/practice/testing.py", line 158, in del_log_cache
+    os.remove(f"{file}")
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'F:\\sackey\\algorithm014\\algorithm014-algorithm014\\Week_05\\practice\\2020_09_20_20.05.50_test.log'
