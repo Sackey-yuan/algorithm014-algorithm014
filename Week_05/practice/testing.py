@@ -209,5 +209,12 @@ def main():
 
 
 if __name__ == "__main__":
-    print('decode-ways'.replace('-', '_'))
-    TestCode().del_log_cache()
+    # print('decode-ways'.replace('-', '_'))
+    # TestCode().del_log_cache()
+    dict_map = { i: {i + 1} for i in range(10)}
+    dict_map[9] = {0}
+    for j in range(10):
+        for i in dict_map[1]:
+            print(i)
+            dict_map[i] = dict_map[j]
+    print(dict_map)

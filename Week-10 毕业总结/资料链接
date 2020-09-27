@@ -7,6 +7,17 @@ Java Map 文档
 http://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/util/Map.html
 维基百科：堆（Heap）
 https://en.wikipedia.org/wiki/Heap_(data_structure)
+Trie
+https://shimo.im/docs/DP53Y6rOwN8MTCQH/read
+并查集代码模板
+https://shimo.im/docs/VtcxL0kyp04OBHak/read
+BFS
+https://shimo.im/docs/ZBghMEZWix0Lc2jQ/read
+dfs
+https://shimo.im/docs/UdY2UUKtliYXmk8t/read
+维基百科：平衡树
+https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree
+
 
 堆的实现代码（java，c++，python，javascript）： https://shimo.im/docs/Lw86vJzOGOMpWZz2/
 连通图个数： https://leetcode-cn.com/problems/number-of-islands/
