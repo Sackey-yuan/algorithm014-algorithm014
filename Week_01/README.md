@@ -5,6 +5,10 @@
 #班级:14期3班
 #语言:python
 #作业&总结链接:https://github.com/Sackey-yuan/algorithm014-algorithm014/tree/master/Week_01
+提交地址：
+https://github.com/algorithm014-algorithm014/algorithm014-algorithm014/issues
+《14期算法训练营-学员作业批改记录表》
+https://shimo.im/sheets/qQWtXYkj8g9WwWX3/8DDj4/ 《14期算法训练营-学员作业批改记录表》
 
 五毒神掌：
 1、5-10分钟读题思考，如果没有思路直接看题解，默写代码（自己想着有思路，调试编写很久没有通过怎么办？）

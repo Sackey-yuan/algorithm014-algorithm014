@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505e6cee-0780-4a0f-9dd8-fa540f776ac6" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_07/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week-10 毕业总结/资料链接" beforeDir="false" afterPath="$PROJECT_DIR$/Week-10 毕业总结/资料链接" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_05/practice/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week_05/practice/testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_07/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_07/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_01/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,6 +227,8 @@
       <workItem from="1600609417417" duration="358000" />
       <workItem from="1601083091631" duration="11078000" />
       <workItem from="1601211425184" duration="3742000" />
+      <workItem from="1601215306144" duration="185000" />
+      <workItem from="1601215537114" duration="23000" />
     </task>
     <servers />
   </component>
