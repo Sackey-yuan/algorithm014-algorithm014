@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505e6cee-0780-4a0f-9dd8-fa540f776ac6" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/Week_08/191. 位1的个数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_08/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/practice/reverse-pairs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_01/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_01/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_05/practice/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week_05/practice/testing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +46,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AI_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_08" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\sackey\algorithm014\algorithm014-algorithm014\Week_08" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\sackey\algorithm014\algorithm014-algorithm014\Week_04\practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.n_queens">
+  <component name="RunManager" selected="Python.231. 2的幂">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,7 +78,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="friend_circles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="191. 位1的个数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm014-algorithm014" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,12 +86,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week_07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week_08" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_07/friend_circles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_08/191. 位1的个数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="231. 2的幂" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm014-algorithm014" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week_08" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_08/231. 2的幂.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm014-algorithm014" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,34 +174,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week_07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week_08" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_07/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm014-algorithm014" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week_05/practice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_05/practice/testing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_08/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,19 +189,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test (1)" />
-      <item itemvalue="Python.friend_circles" />
-      <item itemvalue="Python.testing" />
       <item itemvalue="Python.generate_parentheses" />
       <item itemvalue="Python.n_queens" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.191. 位1的个数" />
+      <item itemvalue="Python.231. 2的幂" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.231. 2的幂" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.191. 位1的个数" />
         <item itemvalue="Python.n_queens" />
         <item itemvalue="Python.generate_parentheses" />
-        <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.friend_circles" />
-        <item itemvalue="Python.testing" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +235,8 @@
       <workItem from="1601211425184" duration="3742000" />
       <workItem from="1601215306144" duration="185000" />
       <workItem from="1601215537114" duration="23000" />
+      <workItem from="1601987346208" duration="1970000" />
+      <workItem from="1602388353066" duration="1858000" />
     </task>
     <servers />
   </component>
@@ -242,9 +250,6 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
     <state x="423" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600609482282">
@@ -263,22 +268,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="518" y="218" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601126490393" />
-    <state width="1286" height="153" key="GridCell.Tab.0.bottom" timestamp="1601215172623">
+    <state width="1286" height="153" key="GridCell.Tab.0.bottom" timestamp="1602390097326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="153" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601215172623" />
-    <state width="1286" height="153" key="GridCell.Tab.0.center" timestamp="1601215172623">
+    <state width="1286" height="153" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602390097326" />
+    <state width="1286" height="153" key="GridCell.Tab.0.center" timestamp="1602390097325">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="153" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601215172623" />
-    <state width="1286" height="153" key="GridCell.Tab.0.left" timestamp="1601215172623">
+    <state width="1286" height="153" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602390097325" />
+    <state width="1286" height="153" key="GridCell.Tab.0.left" timestamp="1602390097325">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="153" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601215172623" />
-    <state width="1286" height="153" key="GridCell.Tab.0.right" timestamp="1601215172623">
+    <state width="1286" height="153" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602390097325" />
+    <state width="1286" height="153" key="GridCell.Tab.0.right" timestamp="1602390097326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="153" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601215172623" />
+    <state width="1286" height="153" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602390097326" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1599916063540">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -287,16 +292,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="380" y="0" width="598" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1599876823655" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600521079830">
+    <state x="346" y="49" width="672" height="160" key="search.everywhere.popup" timestamp="1601987396417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600521079830" />
+    <state x="346" y="49" width="672" height="160" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601987396417" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$231__2.coverage" NAME="231. 2的幂 Coverage Results" MODIFIED="1602390097312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_08" />
     <SUITE FILE_PATH="coverage/algorithm014_algorithm014$longest_common_subsequence.coverage" NAME="longest_common_subsequence Coverage Results" MODIFIED="1599877337842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_05/practice" />
     <SUITE FILE_PATH="coverage/algorithm014_algorithm014$search_a_2d_matrix.coverage" NAME="search-a-2d-matrix Coverage Results" MODIFIED="1600603601281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_04" />
     <SUITE FILE_PATH="coverage/algorithm014_algorithm014$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1601213805211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_07" />
-    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$test.coverage" NAME="test Coverage Results" MODIFIED="1600603867834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_06" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$test.coverage" NAME="test Coverage Results" MODIFIED="1602389985430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_08" />
     <SUITE FILE_PATH="coverage/algorithm014_algorithm014$decode_ways.coverage" NAME="decode-ways Coverage Results" MODIFIED="1600602498910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_06" />
     <SUITE FILE_PATH="coverage/algorithm014_algorithm014$generate_parentheses.coverage" NAME="generate_parentheses Coverage Results" MODIFIED="1601213816380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_07" />
     <SUITE FILE_PATH="coverage/algorithm014_algorithm014$subarray_sum_equals_k.coverage" NAME="subarray-sum-equals-k Coverage Results" MODIFIED="1599816656456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_05/practice" />
@@ -306,6 +312,7 @@
     <SUITE FILE_PATH="coverage/algorithm014_algorithm014$climbing_stairs.coverage" NAME="climbing_stairs Coverage Results" MODIFIED="1601087871063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_07" />
     <SUITE FILE_PATH="coverage/algorithm014_algorithm014$coin_change.coverage" NAME="coin-change Coverage Results" MODIFIED="1600316485465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_06/practice" />
     <SUITE FILE_PATH="coverage/algorithm014_algorithm014$friend_circles.coverage" NAME="friend_circles Coverage Results" MODIFIED="1601126149883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_07" />
+    <SUITE FILE_PATH="coverage/algorithm014_algorithm014$191__1.coverage" NAME="191. 位1的个数 Coverage Results" MODIFIED="1602389906034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_08" />
     <SUITE FILE_PATH="coverage/algorithm014_algorithm014$testing.coverage" NAME="testing Coverage Results" MODIFIED="1601125763389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_05/practice" />
     <SUITE FILE_PATH="coverage/algorithm014_algorithm014$majority_element.coverage" NAME="majority-element Coverage Results" MODIFIED="1599479396947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_04" />
     <SUITE FILE_PATH="coverage/algorithm014_algorithm014$practice_openpyxl.coverage" NAME="practice_openpyxl Coverage Results" MODIFIED="1599985557460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_05/practice" />

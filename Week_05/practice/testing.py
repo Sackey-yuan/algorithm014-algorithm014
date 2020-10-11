@@ -92,7 +92,7 @@ class TestCode:
         self.dirName = ""
         self.fireName = __file__
         self.logsFile = time.strftime("%Y_%m_%d_%H.%M.%S_", time.localtime()) + "test.log"
-        logging.basicConfig(filename=self.logsFile, level=logging.INFO)
+        # logging.basicConfig(filename=self.logsFile, level=logging.INFO)
 
     def add_case(self, test_case):
         if test_case:
@@ -110,6 +110,7 @@ class TestCode:
             raise Exception("No testCase")
         if not self.function:
             raise Exception("No function")
+        logging.basicConfig(filename=self.logsFile, level=logging.INFO)
         for case in self.testCase:
             start_time = time.time()
             # time.sleep(0.01)
@@ -141,10 +142,13 @@ class TestCode:
         print("resultDb:")
         for i in self.resultDb:
             print(f"testCase:\n{i[0]}\nresult:\n{i[1]}")
-        with open(self.logsFile, "r") as logs:
-            print("\nError case:", self.logsFile)
-            for error in logs:
-                print(error)
+        try:
+            with open(self.logsFile, "r") as logs:
+                print("\nError case:", self.logsFile)
+                for error in logs:
+                    print(error)
+        except Exception as es:
+            print("\n No Error case:")
 
     def creat_function(self, function):
         self.function = function
@@ -157,6 +161,7 @@ class TestCode:
             try:
                 os.remove(f"{file}")
             except PermissionError as es:
+                logging.basicConfig(filename=self.logsFile, level=logging.INFO)
                 logging.exception(f"\ndel file:\n\\{file}")
             else:
                 print(f"Successfully deleted \\{file}")
