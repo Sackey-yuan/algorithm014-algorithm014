@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505e6cee-0780-4a0f-9dd8-fa540f776ac6" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_08/191. 位1的个数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_08/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_09/practice/reverse-pairs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_05/practice/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week_05/practice/testing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,6 +233,7 @@
       <workItem from="1601215537114" duration="23000" />
       <workItem from="1601987346208" duration="1970000" />
       <workItem from="1602388353066" duration="1858000" />
+      <workItem from="1604231546962" duration="652000" />
     </task>
     <servers />
   </component>
@@ -252,10 +249,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="423" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600609482282">
+    <state x="423" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604231562027">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="423" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1600609482282" />
+    <state x="423" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604231562027" />
     <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600574371733">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
